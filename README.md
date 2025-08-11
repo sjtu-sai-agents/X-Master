@@ -4,6 +4,10 @@
 📑 <a href="https://arxiv.org/pdf/2507.05241" target="_blank">ArXiv Paper</a>
 </p>
 
+## 🔥 News
+
+- [2025/07/26] Play with our [SciMaster](https://scimaster.bohrium.com), a general-purpose scientific AI agent product!
+
 This is the official implementation of X-Master, a general-purpose tool-augmented reasoning agent.
 
 ![X-Master](./assets/xmaster.png)
