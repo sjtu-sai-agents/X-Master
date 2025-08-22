@@ -1,7 +1,6 @@
 from agents.XMaster.xmaster_agent import XMasterAgent
 import json
 import os
-import json
 from typing import Any, Dict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -38,8 +37,8 @@ def main(save_data_path):
     # Pre-skip: count existing
     if os.path.exists(save_data_path):
         with open(save_data_path, "r", encoding="utf-8") as f:
-            proccessed_data = [json.loads(line) for line in f.readlines()]
-        processed_ids = [item["id"] for item in proccessed_data]
+            processed_data = [json.loads(line) for line in f.readlines()]
+        processed_ids = [item["id"] for item in processed_data]
     else:
         processed_ids = []
 
@@ -55,6 +54,8 @@ def main(save_data_path):
                     if result:
                         with open(save_data_path, "a", encoding="utf-8") as f:
                             f.write(json.dumps(result, ensure_ascii=False) + "\n")
+                        processed_ids.append(item["id"])
+
                 except Exception as e:
                     print(f"\033[31m[ERROR] in {item['id']}: {e} \033[0m")
 
