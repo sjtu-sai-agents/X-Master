@@ -36,7 +36,7 @@ pip install -e.
 
 ---
 ### MCP Tools
-We are working on the codes related to MCP tools, which will be released soon.
+The source code is available at [code_server](https://github.com/sjtu-sai-agents/mcp_sandbox). You can clone the repository and deploy the code execution server using MCP Tools.
 
 ---
 ### X-Master Configuration
