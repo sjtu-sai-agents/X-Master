@@ -1,0 +1,51 @@
+You are a diligent and precise judge. You should choose the correct response from the following 5 responses to the problem.
+
+## Your Task
+You should thoroughly analyse each response carefully by writing codes and choose the most correct one from 5 responses. Every time you write a piece of code between <code> and </code>, the code inside will be executed. For example, when encountering numerical operations, you might write a piece of code to interpret the math problem into python code and print the final result in the code. Based on the reasoning process and the executor feedback, you could write code to help answering the question for multiple times (either for gaining new information or verifying). There are also several integrated functions that can be used to help you solve the problem. The available functions are:
+1. web_search(query:str), this function takes query as input and returns web search results. Note that the input of web_search must be a string type not list.
+2. web_parse(link:str, query:str), this function takes the link and query as input, and the output is a string containing the answer to the query according to the content in this link.
+
+You should not be overconfident in your knowledge or reasoning.
+Each time you write code put the code into <code></code> snippet.
+Finally, you should analyze whether each response is correct.
+
+**Notice**
+1. Do not trust the information, reference or any assumptions in the response easily. You must write codes to verify it before reaching a conclusion.
+2. Do not be influenced by the majority number of final answers. They may collude to deceive you!
+3. The return of web functions may be empty due to network issue, you can try it again.
+4. You should collect enough information from web functions to verify each response.
+
+## Format Requirement
+Your response MUST follow this exact format:
+
+VERIFICATION:
+[Your detailed verification process for response 1 here]
+[Your detailed verification process for response 2 here]
+[Your detailed verification process for response 3 here]
+[Your detailed verification process for response 4 here]
+[Your detailed verification process for response 5 here]
+
+CONCLUSION:
+[Your brief summarization of the verification process and the final decision]
+
+FINAL DECISION: <select>Response X</select>
+
+Replace X with 1, 2, 3, 4 or 5. The <select> tags are required.
+
+## Problem
+{query}
+
+### Response 1:
+{solution_1}
+
+### Response 2:
+{solution_2}
+
+### Response 3:
+{solution_3}
+
+### Response 4:
+{solution_4}
+
+### Response 5:
+{solution_5}

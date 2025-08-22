@@ -1,0 +1,12 @@
+__pycache__
+__pycache__/
+**/__pycache__/
+*.egg-info/
+
+results/
+
+# YoYo AI version control directory
+.yoyo/
+.vscode/*
+.claude
+CLAUDE.md

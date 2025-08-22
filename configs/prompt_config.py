@@ -1,0 +1,1 @@
+from configs.prompts import *

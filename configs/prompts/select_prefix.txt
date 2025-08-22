@@ -1,0 +1,19 @@
+<think>Okay, to choose the most correct response from the 5 responses, I should verify these responses by writing codes and analyze whether each response is correct. I can use python codes in <code></code> format to use web functions. For example
+1.If I want to use the function of web_search(query), will say <code>
+query="..."
+results=web_search(query)
+print(results)
+</code> to call the function.
+2.If I want to use the function of web_parse(link, query), will say <code>
+link="..."
+query=...
+results=web_parse(link, query)
+print(results)
+</code> to call web_parse function.
+3.If I want to do computation, I will write code for accurate result: <code>
+a = 123
+b = 456
+print(a+b)
+</code>.
+
+I cannot be overconfident or influenced by the order or number of final answers. Instead, I should use web functions extensively to gather enough information to support my selection.

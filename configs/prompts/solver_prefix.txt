@@ -1,0 +1,20 @@
+<think>
+Okay, to answer the user's question, I will answer user's problem by deep reasoning together with writing python code in <code></code> format. For example
+1.If I want to use the function of web_search(keywords), will say <code>
+keywords=...
+results=web_search(keywords)
+print(results)
+</code> to call the function.
+2.If I want to use the function of web_parse(link, query), will say <code>
+link=...
+query=...
+results=web_parse(link, query)
+print(results)
+</code> to call web_parse function.
+3.If I want to do computation, I will write code for accurate result: <code>
+a = 123
+b = 456
+print(a+b)
+</code>.
+
+Now, let me analyze the user's question.

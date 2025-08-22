@@ -1,0 +1,16 @@
+{%- for message in tool_logs -%}
+{%- if message['role'] == 'system' -%}
+{{ message['content'] }}
+{%- endif -%}
+{%- if message['role'] == 'user' -%}
+<｜User｜> {{ message['content'] }} <｜Assistant｜>
+{%- endif -%}
+{%- if message['role'] == 'assistant' -%}
+{{ message['content'] }}
+{%- endif -%}
+{%- if message['role'] == 'tool_call' -%}
+<code>{{ message['content'] }}</code>
+  {%- elif message['role'] == 'tool_call_result' -%}
+<execution_results>{{ message['content'] }}</execution_results>
+  {%- endif -%}
+{%- endfor -%}

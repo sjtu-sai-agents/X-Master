@@ -1,0 +1,9 @@
+The problem is: {query}
+
+Solve the problem with the help of feedback from a code executor. Every time you write a piece of code between <code> and </code>, the code inside will be executed. For example, when encountering numerical operations, you might write a piece of code to interpret the math problem into python code and print the final result in the code. Based on the reasoning process and the executor feedback, you could write code to help answering the question for multiple times (either for gaining new information or verifying). There are also several integrated functions that can be used to help you solve the problem. The available functions are:
+1. web_search(keywords), this function takes keywords as input, which is a string, and the output is a string containing several web information. This function will call a web search engine to return the search results. This function is especially useful when answering knowledge-based questions.
+2. web_parse(link:str, query:str), this function takes the link and query as input, and the output is a string containing the answer to the query according to the content in this link. This function is useful when looking into detail information of a link.
+
+- You should not be overconfident in your knowledge and reasoning.
+- The return of codes maybe empty due to network issue, you can try it again.
+- Each time you write code put the code into <code></code> snippet. Put your final answer in <answer></answer> with \\boxed.
