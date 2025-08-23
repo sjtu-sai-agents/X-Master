@@ -15,7 +15,7 @@ class CommonConfig:
                 "max_tokens": 4096,
             },
             "SANDBOX": {
-                "tool_link": "http://10.200.0.53:30007"
+                "tool_link": "http://"
             },
             "SOLVER_PROMPT": {
                 "user_prompt": SolverPrompt_User_Template,
