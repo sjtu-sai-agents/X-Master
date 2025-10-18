@@ -20,7 +20,11 @@ This is the official implementation of X-Master, a general-purpose tool-augmente
 
 - 🔬 **Scattered-and-Stacked Workflow**: X-Masters enhances problem-solving performance by strategically increasing both the breadth of exploration and the depth of reasoning.
 
-## Examples
+## Results on HLE
+- Below is the X-Masters accuracy (%) on the text-only subset of Humanity’s Last Exam (HLE), broken down by category.
+  | Math | Humanities/Social Science | Other | Biology/Medicine | Chemistry | Physics | Engineering | Computer Science/AI | Overall |
+  |---|---|---|---|---|---|---|---|---|
+  | 38.5% | 33.2% | 29.0% | 27.6% | 26.1% | 24.1% | 23.4% | 22.5% | 32.1% |
 - Some response examples for each HLE category are in ```logs/example.jsonl```. 
 
 ## 🚀 QuickStart
